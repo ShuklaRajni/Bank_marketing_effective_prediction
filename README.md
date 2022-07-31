@@ -8,36 +8,89 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 
 # Data Summary:
 
-Categorical Features
+We were provided with following dataset:
 
-▪ Marital - (Married , Single , Divorced)
+Bank Client data:
 
-▪ Job-(Management,BlueCollar,retired etc)
+● age (numeric) job : type of job
 
-▪ Contact - (Telephone,Cellular,Unknown)
+● marital : marital status
 
-▪ Education (Primary,Secondary,Tertiary)
+● education
 
-▪ Month-(Jan,Feb,Mar,Apr,May etc)
+● default: has credit in default?
 
-▪ Poutcome - (Success,Failure,Other,Unknown)
+● housing: has a housing loan?
 
-▪ Housing - (Yes/No)
+● loan: has a personal loan?
 
-▪ Loan - (Yes/No)
+Related with the last contact of the current campaign:
 
-▪ Default - (Yes/No)
+● contact: contact communication type
 
-Numerical Features
+● month: last contact month of year
 
-▪ Age
+● day_of_week: last contact day of the week
 
-▪ Balance
+● duration: last contact duration, in seconds (numeric).
 
-▪ Day
+Other attributes:
 
-▪ Duration
+● campaign: number of contacts performed during this campaign
 
-▪ Campaign
+● pdays: number of days that passed by after the client was last contacted from
+a previous campaign previous: number of contacts performed before this
+campaign
 
-▪ Pdays
+● poutcome: outcome of the previous marketing campaign
+
+Output variable (desired target):
+
+y - has the client subscribed to a term deposit? (binary: 'yes','no')
+
+# Introduction:
+
+With the startling rise over the last few decades of media and technology which
+increases the amount of information we have at our fingertips (cell phones,
+television, Internet, etc.), humans are now more connected than ever. Marketing is
+the most common method which many companies are using to sell their products,
+services and reach out to potential customers to increase their sales.Telemarketing
+is one of the most useful ways of doing marketing for increasing business and
+building good relationships with customers to get business for a company.
+
+# Classification Approach:
+
+After understanding the problem statement, we loaded the dataset for following
+operations:
+
+● Data Exploration
+
+● Exploratory Data Analysis
+
+● Feature selection
+
+● Balancing Target Feature
+
+● Building Model
+
+● Hyperparameter Tuning
+
+# Handling Imbalance data Using SMOTE
+
+SMOTE library used to generate synthetic data for handling the imbalance in the dataset
+
+# Model building:
+
+In this project we used the following models for classification Algorithms.
+
+1. Logistic Regression
+
+2. K-Nearest Neighbor
+ 
+3. XGBoost Classifier
+ 
+4. Random Forest
+
+5. Decision Tree
+
+
