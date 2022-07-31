@@ -93,4 +93,20 @@ In this project we used the following models for classification Algorithms.
 
 5. Decision Tree
 
+# Result:
 
+Thus we come to an end of our analysis and model building to predict if the client will
+subscribe to a term deposit or not. The most important takeaways are:
+
+● For age, most of the customers are in the age range of 30-40.
+
+● For balance, above 1000$ is like subscribing to a term deposit .
+
+● The model can help to classify the customers on the basis on which they
+deposit or not.
+
+● The model helps to target the right customer rather than wasting time on
+wrong customer.
+
+● Compared to all algorithms XGboost algorithm has the best accuracy score
+and ROC-AUC score . So it is concluded as the optimal model.
